@@ -40,6 +40,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/toro/proprietary/gralloc.omap4.so:system/vendor/lib/hw/gralloc.omap4.so \
     vendor/samsung/toro/proprietary/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
     vendor/samsung/toro/proprietary/libIMGegl.so:system/vendor/lib/libIMGegl.so \
+    vendor/samsung/toro/proprietary/libims.so:system/vendor/lib/libims.so \
+    vendor/samsung/toro/proprietary/libims_jni.so:system/vendor/lib/libims_jni.so \
     vendor/samsung/toro/proprietary/libinvensense_mpl.so:system/vendor/lib/libinvensense_mpl.so \
     vendor/samsung/toro/proprietary/libpvr2d.so:system/vendor/lib/libpvr2d.so \
     vendor/samsung/toro/proprietary/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
@@ -52,6 +54,11 @@ PRODUCT_COPY_FILES += \
 # All the apks necessary for toro
 PRODUCT_PACKAGES += \
     BIP \
+    IMSFramework \
     RTN \
-    SyncMLSvc 
+    SDM \
+    SPG \
+    SyncMLSvc \
+    VZWAPNLib \
+    VZWAPNService
 
